@@ -1,0 +1,29 @@
+{
+  "name": "graphql-apollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandramgc/graphql-apollo-server.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Girish Mallula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandramgc/graphql-apollo-server/issues"
+  },
+  "homepage": "https://github.com/chandramgc/graphql-apollo-server#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "2.12",
+    "lodash": "^4.17.21",
+    "nodemon": "2.0"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: graphql-server
+    command: npm start
+    ports:
+      - 4400:4000
+    volumes:
+      - ./src:/app
